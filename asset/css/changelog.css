@@ -1,0 +1,330 @@
+/* main-h1 */
+.main-d h1 {
+    line-height: 1;
+    font-weight: 600;
+    margin-top: 5rem;
+    word-spacing: -8px;
+    font-size: 3.75rem;
+    white-space: pre-wrap;
+
+}
+
+.flex-clum {
+    flex-direction: row;
+}
+
+.contener-bl {
+    width: 95%;
+}
+
+.h2-changelog {
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #5e5e5ee0;
+    line-height: 1.75rem;
+}
+
+/* main-h1-end */
+/* box */
+.time-ch {}
+
+.w-3 {
+    width: 1.75rem;
+    margin-top: 5px;
+}
+
+.p-cangelog {
+    font-weight: 700;
+    word-spacing: -7px;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.gap-6 {
+    gap: 6px;
+    margin-top: 15px;
+}
+
+.p_ch {
+    font-weight: 600;
+}
+
+.img-rdus img {
+    border-radius: 50%;
+}
+
+.m-t-6 {
+    margin-top: 6px;
+}
+
+.gap-200 {
+    gap: 200px;
+}
+
+.m-t22 {
+    margin-top: 22px;
+
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.svg_left {
+    width: 17px;
+    margin-top: 4px;
+}
+
+.a_read {
+    font-size: 16px;
+    font-weight: 600;
+    color: #151d30;
+    line-height: 27px;
+    word-spacing: -2px;
+
+}
+
+.m-t-5rem {
+    margin-top: 5rem;
+}
+
+/* end-box */
+/* Subscription */
+.p-a {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.color-se {
+    background-color: #F5F5F5;
+}
+
+.h2-Subscription {
+    font-size: 45px;
+    color: #00001a;
+    word-spacing: -7px;
+}
+
+.p-Subscription {
+    color: #8c8c8c;
+}
+
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+/* input */
+
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.px-4 {
+    padding-inline-end: 1rem;
+    -webkit-padding-end: 1rem;
+    padding-inline-start: 1rem;
+    -webkit-padding-start: 1rem;
+}
+
+.border {
+    border-width: 1px;
+}
+
+
+
+.w-full {
+    width: 100%;
+    border-radius: 9px;
+    padding-top: 16px;
+    padding-left: 12px;
+    padding-right: 111px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    border-color: #e5e7eb;
+
+}
+
+.block {
+    display: block;
+}
+
+.button-input button {
+    color: white;
+    font-weight: 700;
+    font-weight: 600;
+    padding-top: 14px;
+    border-width: 1px;
+    text-align: center;
+    padding-left: 35px;
+    border-radius: 9px;
+    padding-right: 35px;
+    padding-bottom: 14px;
+    display: inline-block;
+    --tw-border-opacity: 1;
+    background-color: #48464f;
+}
+
+.m-t-n {
+    margin-top: -57px;
+}
+
+.p-input {
+    padding: 12px;
+    font-size: 14px;
+}
+
+.h-6 {
+    height: 23rem;
+}
+
+/* end-input */
+/* end-Subscription */
+/* footer */
+.logo-t {
+    margin-top: 35px;
+}
+
+.w-logo {
+    width: 4%;
+}
+
+.li-footer {
+    color: #737373;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+
+.svg-footer {
+    width: 28px;
+}
+
+.svg-footer svg {
+    max-width: 100%;
+    color: #4d4d4d;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+/* end-foter */
+/* media */
+@media only screen and (max-width: 1010px) {
+
+    /* box */
+    .flex-clum {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    /* logo-footer */
+    .logo-footer {
+        width: 9%;
+    }
+
+    .logo-footer-rext {
+        font-size: 30px;
+    }
+
+    /* end-logo-footer */
+
+    /* box */
+}
+
+@media only screen and (max-width: 690px) {
+
+    /* main-h1 */
+    .main-d h1 {
+        font-size: 47px;
+    }
+
+    /* end */
+    .p-cangelog {
+        font-size: 33px;
+    }
+
+    /* input */
+    .form-clum {
+        flex-direction: column;
+    }
+
+    .button-input button {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .w-full {
+        padding-left: 19px;
+        padding-right: 257px;
+    }
+
+    .h-6 {
+        height: 27rem;
+    }
+
+    .h2-Subscription {
+        font-size: 38px;
+    }
+
+    .p-Subscription {
+        font-size: 15px;
+    }
+
+
+    /* end-input */
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* main-h1 */
+    .main-d h1 {
+        font-size: 35px;
+    }
+
+    /* end-main-h1 */
+    .p-cangelog {
+        font-size: 29px;
+    }
+
+    /* left */
+    .m-1rem {
+        margin-top: 1rem;
+    }
+
+    /* end-left */
+    .logo-footer {
+        width: 12%;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+
+    /* input */
+    .w-full {
+        padding-left: 16px;
+        padding-right: 238px;
+    }
+
+    .button-input button {
+        padding-left: 124px;
+        padding-right: 124px;
+    }
+
+    .w-full {
+        padding-left: 16px;
+        padding-right: 212px;
+    }
+
+
+}
+
+
+/* end-input */
+
+
+/* end-media */

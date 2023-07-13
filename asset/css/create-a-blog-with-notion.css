@@ -1,0 +1,194 @@
+/* main */
+.ul-w {
+    gap: 0.5rem;
+    margin-top: 5rem;
+}
+
+.svg-foter svg {
+    width: 25px;
+    height: 22px;
+    color: #808080;
+}
+
+.div-li-h {
+    font-size: 14px;
+    color: #595959;
+    font-weight: 600;
+    margin-top: -11px;
+}
+
+/* h1 */
+.h1-main-cr h1 {
+    font-size: 62px;
+    margin-top: 2rem;
+    color: #00001a;
+    line-height: 58px;
+    word-spacing: -7px;
+}
+
+.h1-main-cr p {
+    font-size: 19px;
+    margin-top: 25px;
+}
+
+time {
+    font-size: 16px;
+}
+
+/* end-h1 */
+/* create-a-blog-with-notion */
+.gap-90 {
+    gap: 90px;
+}
+
+.con-img-text {
+    margin-top: 5rem;
+}
+
+/* text-w */
+
+.text-w {
+    width: 25%;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.mg-rdus-w {
+    width: 39%;
+}
+
+.font-t {
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.font-but {
+    margin-top: 34px !important;
+}
+
+.a-bold {
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+
+.li_box_text {
+    font-size: 16px;
+    color: #696969;
+    margin-bottom: 5px;
+}
+
+.m-t-b-t {
+    margin-left: 25px;
+}
+
+.m-t-ul-13 {
+    margin-top: 13px;
+}
+
+.li_box_text:hover {
+    color: black;
+    font-weight: 600;
+}
+
+/* ul-rdus */
+
+
+.il-rdus {
+
+    width: 45px;
+    height: 45px;
+    border-width: 1px;
+    display: inline-flex;
+    border-radius: 9999px;
+    border: 1px solid #dddddd;
+}
+
+.il-rdus svg {
+    width: 22px;
+    color: #4c4646;
+}
+/* end-ul-rduzx */
+/* end-text */
+/* img */
+.img-w {
+    width: 65%;
+}
+
+.img-r {
+    border-radius: 17px;
+}
+.text-img {
+    margin: 80px auto;
+}
+.w-78 {
+    width: 78%;
+}
+.notion-h-title{
+text-decoration: underline;
+}
+/* end-img */
+/* end-create-a-blog-with-notion */
+/* end-main */
+
+/* media */
+@media only screen and (max-width: 1060px) {
+    /* h1 */
+    .h1-main-cr h1 {
+        font-size: 40px;
+    }
+    /* end-h1 */
+}
+
+@media only screen and (max-width: 1040px) {
+
+    /* text */
+    .text-w {
+        width: 35%;
+        /* end-text */
+    }
+}
+@media only screen and (max-width: 1020px) {
+
+    .p-Create {
+        font-size: 16px !important;
+    }
+   
+
+
+}
+
+
+@media only screen and (max-width: 920px) {
+
+    /* text */
+    .text-w {
+        width: 43%;
+    }
+
+    /* end-text */
+}
+
+@media only screen and (max-width: 830px) {
+
+    /* text */
+    .text-w {
+        display: none;
+    }
+
+    /* end-text */
+    /* img-w */
+    .img-w {
+        width: 100%;
+    }
+
+    /* img-w-end */
+}
+@media only screen and (max-width: 650px) {
+     /* h1 */
+     .h1-main-cr h1 {
+        font-size: 30px;
+    }
+    /* end-h1 */
+
+}
+
+/* end-media */

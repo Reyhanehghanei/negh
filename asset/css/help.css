@@ -1,0 +1,127 @@
+.m-t-11 {
+    margin-top: 12rem;
+}
+/* main */
+/* mian-h1-color */
+.h1-main {
+    font-size: 3.75rem;
+}
+
+.mian-p {
+    color: gray;
+}
+/* end-mian-h1-color */
+/* box-item */
+.h2-box-item {
+    font-size: 30px;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    letter-spacing: -.025em;
+}
+
+.box-item {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.box-ittem {
+    gap: 7px;
+    padding: 20px;
+    border-radius: 7px;
+    border-color: transparent;
+    background-color: #f4f4f4;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.flex-clum {
+    flex-direction: column;
+}
+
+.box-ittem img {
+    max-width: 33%;
+    margin: 0 auto;
+}
+/* end-box-item */
+/* Featured posts */
+.Featuredposts h2 {
+    font-size: 35px;
+    padding: 5px;
+}
+/* img-box */
+.img-post {
+    width: 30%;
+}
+
+.img-post img {
+    border-radius: 25px;
+}
+
+.w-50 {
+    width: 90%;
+}
+
+.rdus-10 {
+    border-radius: 9px;
+}
+/* img-box */
+.m-t-1 {
+    margin-top: 15px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.p-post {
+    font-size: 16px;
+    font-weight: bold;
+}
+.m-t-6rem {
+    margin-top: 6rem;
+}
+/* end-Featured posts */
+/* end-main */
+
+/* media */
+@media only screen and (max-width: 950px) {
+
+    /* box-item */
+    .box-item {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    /*end-box-item */
+    /* mian-h1-color */
+    .mian-h1-color h1 {
+        font-size: 2.75rem;
+    }
+
+    .mian-p {
+        font-size: 15px;
+    }
+    /* end-mian-h1-color */
+    /* Featured posts */
+    .img-post {
+        width: 100% !important;
+    }
+    .text_post {
+        width: 100%;
+    }
+    .Featured_posts {
+        flex-direction: column;
+    }
+    /* end-Featured posts */
+}
+
+@media only screen and (max-width: 650px) {
+
+    /* box-item */
+    .box-item {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    /*end-box-item */
+    /* mian-h1-color */
+    .mian-h1-color h1 {
+        font-size: 1.75rem;
+    }
+    /* end-mian-h1-color */
+}
+/* end-media */
