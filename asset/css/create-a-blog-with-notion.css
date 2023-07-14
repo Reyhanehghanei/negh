@@ -106,6 +106,7 @@ time {
     width: 22px;
     color: #4c4646;
 }
+
 /* end-ul-rduzx */
 /* end-text */
 /* img */
@@ -116,25 +117,94 @@ time {
 .img-r {
     border-radius: 17px;
 }
+
 .text-img {
     margin: 80px auto;
 }
+
 .w-78 {
     width: 78%;
 }
-.notion-h-title{
-text-decoration: underline;
+
+.a-nl {
+    color: inherit;
+    word-break: break-word;
+    text-decoration: inherit;
+    border-bottom: 0.05em solid;
+    border-color: var(--fg-color-2);
+    opacity: .7;
+    transition: border-color .1s ease-in, opacity .1s ease-in;
 }
+
+.notion-h {
+    font-size: 30px;
+    line-height: 40px;
+
+
+}
+
+.notion-h {
+    position: relative;
+}
+
+.notion-hash-link {
+    bottom: 51px;
+    left: -19px;
+    display: none;
+    position: absolute;
+}
+
+.notion-h:hover .notion-hash-link {
+    display: block;
+}
+
+.notion {
+    font-size: 30px;
+    position: relative;
+}
+
+.a-nlt {
+    top: -19px;
+    display: none;
+    left: -16px;
+    position: absolute;
+}
+
+.notion:hover .a-nlt {
+    display: block;
+}
+
+/* ul */
+.ul-ls {
+    list-style-type: disc;
+}
+
+.prose-li\:marker\:text-primary-500 * :is(:where(li):not(:where([class~="not-prose"] *)))::marker {
+    color: red;
+
+}
+
+.w-68 {
+    width: 68%;
+    font-size: 20px;
+    line-height: 37px;
+}
+
+/* end-ul */
+
+
 /* end-img */
 /* end-create-a-blog-with-notion */
 /* end-main */
 
 /* media */
 @media only screen and (max-width: 1060px) {
+
     /* h1 */
     .h1-main-cr h1 {
         font-size: 40px;
     }
+
     /* end-h1 */
 }
 
@@ -146,14 +216,12 @@ text-decoration: underline;
         /* end-text */
     }
 }
+
 @media only screen and (max-width: 1020px) {
 
     .p-Create {
         font-size: 16px !important;
     }
-   
-
-
 }
 
 
@@ -182,11 +250,14 @@ text-decoration: underline;
 
     /* img-w-end */
 }
+
 @media only screen and (max-width: 650px) {
-     /* h1 */
-     .h1-main-cr h1 {
+
+    /* h1 */
+    .h1-main-cr h1 {
         font-size: 30px;
     }
+
     /* end-h1 */
 
 }
