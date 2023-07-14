@@ -190,6 +190,29 @@ time {
     line-height: 37px;
 }
 
+.m-t45 {
+    font-size: 18px;
+    margin-top: 45px;
+    line-height: 30px;
+}
+
+.font-17 {
+    font-size: 17px;
+}
+
+.li-hover:hover {
+    color: #4c4646;
+}
+
+.notion-inline-code {
+    color: #eb5757;
+    padding: 0.2em 0.4em;
+    background: var(--bg-color-2);
+    border-radius: 3px;
+    font-size: 85%;
+     
+}
+
 /* end-ul */
 
 
