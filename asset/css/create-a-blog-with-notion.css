@@ -210,11 +210,40 @@ time {
     background: var(--bg-color-2);
     border-radius: 3px;
     font-size: 85%;
-     
+
 }
 
 /* end-ul */
+.m-t-15 {
+    margin-top: 15px;
+}
 
+.font-13 {
+    font-size: 13px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.notion-callout {
+    width: 100%;
+    border-radius: 3px;
+    border-width: 1px;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid #e5e0e0;
+    background-color: #eeecec;
+    padding: 16px 16px 16px 12px;
+}
+
+.m-t-40 {
+    margin-top: 40px;
+}
+
+.m-t--15 {
+    margin-top: -15px;
+}
 
 /* end-img */
 /* end-create-a-blog-with-notion */
