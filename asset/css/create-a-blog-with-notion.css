@@ -245,6 +245,108 @@ time {
     margin-top: -15px;
 }
 
+.box-text {
+    padding: 37px;
+    border-radius: 18px;
+    background: #5c5f68;
+}
+
+.box-text p {
+    color: #f2f2f2;
+    font-size: 15px;
+}
+
+.box-text h3 {
+    color: white;
+    font-size: 31px;
+    margin-top: 15px;
+    word-spacing: -4px;
+}
+
+.box-text .login {
+    border: none;
+    font-size: 16px;
+    margin-top: 29px;
+    border-radius: 6px;
+    padding-left: 14px;
+    padding-right: 16px;
+
+}
+
+.login:hover {
+    background-color: #1a1a33;
+}
+
+/* svg-text */
+.w-70 {
+    width: 19%;
+}
+
+.w-70 h3 {
+    margin-top: 15px;
+    margin-left: 23px;
+    margin-bottom: 15px;
+}
+
+.font_text {
+    display: block;
+    margin-top: 2rem;
+    word-spacing: -4px;
+}
+
+.a__link {
+    display: block;
+    margin-top: 34px;
+    margin-left: 13px;
+    margin-bottom: 7px;
+}
+
+.p_link {
+    color: gray;
+    font-size: 13px;
+    margin-left: 15px;
+    word-spacing: -4px;
+}
+
+.li_svg_ {
+    width: 25%;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.m-t .gap-10 {
+    gap: 5px;
+}
+
+.none {
+    display: none;
+}
+
+.li_svg_ svg {
+    width: 19px;
+    color: #4c4646;
+}
+
+.li_svg_:hover {
+    background: rgb(248 242 242);
+}
+.h4_text {
+    margin-top: 2rem;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.m-t-5rem {
+    margin-top: 5rem;
+}
+.ul_gap {
+    gap: 10px;
+    margin-top: 15px;
+}
+/* end-svg-text */
+
 /* end-img */
 /* end-create-a-blog-with-notion */
 /* end-main */
