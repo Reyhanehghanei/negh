@@ -10,11 +10,12 @@
 
 /* text-img-main */
 .main-h {
-    word-spacing: -25px;
+    color: #090418;
+    word-spacing: -4px;
 }
 
 .p-main {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .shadow {
@@ -35,6 +36,11 @@
 
 .m-t-3 {
     margin-top: 30px;
+}
+
+.p-y {
+    font-size: 15px !important;
+    padding-top: 11px !important;
 }
 
 /* end-button- */
